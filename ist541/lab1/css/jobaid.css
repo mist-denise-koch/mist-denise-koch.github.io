@@ -4,6 +4,7 @@
 body {
 	background-color: #e0ebf5;   /* background color */
 	color: #444;          /* text color for the entire page */
+	font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2 { 
@@ -37,11 +38,11 @@ h1, h2 {
 	width:55%;
 	padding:10px;
 	line-height:145%;
-	font-size: 150%;
+	font-size: 140%;
 }
 
 .stepImage {
-	width:30%;	
+	width:40%;	
 	padding:10px;
 	text-align: center;
 }
@@ -52,7 +53,7 @@ h1, h2 {
 }
 
 .stepImage img {
-    width:100%;
+    width:90%;
     height:auto;
 }
 
