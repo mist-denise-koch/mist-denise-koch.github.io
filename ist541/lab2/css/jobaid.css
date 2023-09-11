@@ -5,6 +5,8 @@ body {
 	background-color: #e0ebf5;   /* background color */
 	color: #444;          /* text color for the entire page */
 	font-family: 'Open Sans', sans-serif;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
 }
 
 h1, h2 { 
@@ -15,6 +17,7 @@ h1, h2 {
 #wrapper {
 	width: 85%;
 	margin: 0 auto;    /* centers wrapper */
+
 }
 
 /* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
@@ -24,6 +27,11 @@ h1, h2 {
 	background-color:#f7b757a1;
 	font-weight: bold;
 	font-size: 150%;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+
+box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+
  }
 
 .stepContent{ 
@@ -32,6 +40,12 @@ h1, h2 {
 	display: flex;
 	flex-wrap:wrap;
 	justify-content: center;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+
+box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+
+
 }
 
 .stepDescription {
