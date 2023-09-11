@@ -6,7 +6,7 @@ body {
 	color: #444;          /* text color for the entire page */
 	font-family: 'Open Sans', sans-serif;
 	border-radius: 20px;
-	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+	box-shadow: 0 4px 8px 0 rgb(103, 147, 224), 0 6px 20px 0 rgb(103, 147, 224);
 }
 
 h1, h2 { 
@@ -30,7 +30,7 @@ h1, h2 {
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
 
-box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+box-shadow: 0 4px 8px 0 rgb(103, 147, 224), 0 6px 20px 0 rgb(103, 147, 224);
 
  }
 
@@ -43,7 +43,7 @@ box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
 
-box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+box-shadow: 0 4px 8px 0 rgb(103, 147, 224), 0 6px 20px 0 rgb(103, 147, 224);
 
 
 }
@@ -63,7 +63,7 @@ box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
 
 .stepImage img { 
 	border-radius: 20px;
-	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+	box-shadow: 0 4px 8px 0 rgb(103, 147, 224), 0 6px 20px 0 rgb(103, 147, 224);
 }
 
 .stepImage img {
