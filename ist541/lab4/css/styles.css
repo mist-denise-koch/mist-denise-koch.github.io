@@ -9,6 +9,20 @@ body {
 	font-family:Verdana, Geneva, sans-serif;
 }
 
+a {
+	padding: 15px;
+	margin: 3px;
+	font-size: 125%;
+	background-color: white; 
+	color: goldenrod; 
+}
+
+a:hover {
+	font-size:200%;
+	background-color: goldenrod; 
+	color: blue; 
+}
+
 #wrapper {
 	width:900px;
 	margin:0 auto;         /* centers wrapper */
