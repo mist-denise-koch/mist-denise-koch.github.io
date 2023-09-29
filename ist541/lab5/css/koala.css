@@ -11,14 +11,15 @@ margin: 0 auto;
 text-align: center;
 background-color: #e0ebf5;	
 }
-
- #koala_image {
-border: black 5px solid;
-}
  
- #gmeet2 {
+#gmeet2 {
 display: none; /* hides content */
-border: black 5px solid;
+border: black 2px solid;
+}
+
+#google_calender_icon {
+display: none; /* hides content */
+border: black 2px solid;
 }
 
 .choices {
