@@ -23,6 +23,11 @@ display: none; /* hides content */
 border: black 2px solid;
 }
 
+#google_calender_icon_show {
+display: show; /* hides content */
+border: black 2px solid;
+}
+
 .choices {
 cursor: pointer;
 }
