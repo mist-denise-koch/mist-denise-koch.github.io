@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>question1.html</title>
+	<link href="css/koala.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+
+<body id="body">
+	<div id="wrapper">
+ 	<br>
+		<h1>Collaboration e-Tools</h1>
+		<br>
+		<div id="menu">
+				<a href="question1.html"> Options </a>
+				<a href="question2.html"> Meet </a>	
+			</div>
+ 		<br><br>
+		<h3 id="hint" >Google Calender has excellent eTool collaborative features. Hover over the image to see another eTool option! </h3>
+ 
+		<img onmouseenter="showAnswer()" id="google_calender_icon"  src="img/gcalendaricon.png"   />
+ 
+		<img onmouseleave="hideAnswer()" id="google_meet_icon" src="img/gmeeticon.jpeg" 	/>
+     	<br><br><br><br><br><br>
+		<div id="answer"></div>  <!-- This is a placeholder to display the answer-->
+ 
+	</div> <!-- closing  “wrapper” -->
+
+<script>
+	
+	function showAnswer() {
+	   $("#google_meet_icon").show();
+	   $("#google_calender_icon").hide();
+	   $("#answer").html("<h2>Google Meet!</h2>");
+	}
+	
+	function hideAnswer() {
+	   $("#google_calender_icon").show();
+	   $("#google_meet_icon").hide();
+	   $("#answer").html("");  
+	}
+ 	
+	
+</script>
+
+</body>
+</html>

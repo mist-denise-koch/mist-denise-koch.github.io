@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>question2.html</title>
+<link href="css/koala.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body id="body">
+	 <div id="wrapper">
+		<h1>Collaboration e-Tools</h1>
+		 <br>
+		 <div id="menu">
+				<a href="question1.html"> Options </a>
+				<a href="question2.html"> Meet </a>	
+			</div>
+		 <br>
+		<h3>Which feature would be most helpful to teams?</h3>
+
+		<h2 onclick="wrongAnswer1()" class="choices"> Zoom Friendly </h2>
+		<h2 onclick="wrongAnswer2()" class="choices"> No iphones </h2>
+		<h2 onclick="rightAnswer()" class="choices"> Convenience </h2>
+		<h2 onclick="wrongAnswer2()" class="choices"> Desktop Only <br><br></h2>
+
+	<div id="feedback"></div>
+	
+	<img id="gmeet2" src="img/gmeet2.jpeg" alt=""/>
+</div>
+	<script>
+      function rightAnswer(){
+         $("#feedback").html("<h2 style='color:green'> Correct! Google Meet can be instantly accessed from any device and give you direct access to your shared documents at the same time.</h2><br><br><br>");
+         $("#gmeet2").show();
+      }
+		
+		function wrongAnswer1(){
+      $("#feedback").html("<h2 style='color:red'> Google Meet and Zoom are seperate tools. </h2>");
+      $("#koala_eating").hide();
+   }
+   function wrongAnswer2(){
+      $("#feedback").html("<h2 style='color:red'> Google Meet can be used on all devices. </h2>");
+      $("#gmeet2").hide();/* Image src https://chromeunboxed.com/google-meet-effects-panel */
+   }
+
+   </script>
+
+</body>
+</html>

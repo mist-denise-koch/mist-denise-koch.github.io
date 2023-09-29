@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#body {
+	background-color: #e0ebf5;
+}
+
+#wrapper {
+width: 900px;
+margin: 0 auto;
+text-align: center;
+background-color: #e0ebf5;	
+}
+
+ #koala_image {
+border: black 5px solid;
+}
+ 
+ #gmeet2 {
+display: none; /* hides content */
+border: black 5px solid;
+}
+
+.choices {
+cursor: pointer;
+}
+
+a {
+	padding: 15px;
+	margin: 3px;
+	font-size: 125%;
+	background-color: #e0ebf5; 
+	color: goldenrod; 
+	border-radius: 20px;
+	box-shadow: 0 3px 8px 0 rgb(103, 147, 224), 0 8px 20px 0 rgb(103, 147, 224);
+}
+
+a:hover {
+	font-size:200%;
+	background-color: goldenrod; 
+	color: blue; 
+}
