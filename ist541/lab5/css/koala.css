@@ -5,31 +5,13 @@
 	background-color: #e0ebf5;
 }
 
+
 #wrapper {
 width: 900px;
 margin: 0 auto;
 text-align: center;
 background-color: #e0ebf5;	
 border: white 2px solid;
-}
- 
-#gmeet2 {
-display: none; /* hides content */
-border: black 2px solid;
-}
-
-#google_calender_icon {
-display: none; /* hides content */
-border: black 2px solid;
-}
-
-#google_calender_icon_show {
-display: show; /* hides content */
-border: black 2px solid;
-}
-
-.choices {
-cursor: pointer;
 }
 
 a {
@@ -46,4 +28,20 @@ a:hover {
 	font-size:200%;
 	background-color: goldenrod; 
 	color: blue; 
+
+#google_calender_icon {
+display: none; /* hides content */
+border: black 2px solid;
+}
+
+#gmeet2 {
+display: none; /* hides content */
+border: black 2px solid;
+}
+
+.choices {
+cursor: pointer;
+}
+
+
 }
