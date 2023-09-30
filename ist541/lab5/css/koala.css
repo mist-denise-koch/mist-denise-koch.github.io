@@ -5,15 +5,6 @@
 	background-color: #e0ebf5;
 }
 
-
-#wrapper {
-width: 900px;
-margin: 0 auto;
-text-align: center;
-background-color: #e0ebf5;	
-border: white 2px solid;
-}
-
 a {
 	padding: 15px;
 	margin: 3px;
@@ -24,15 +15,19 @@ a {
 	box-shadow: 0 3px 8px 0 rgb(103, 147, 224), 0 8px 20px 0 rgb(103, 147, 224);
 }
 
-a:hover {
-	font-size:200%;
-	background-color: goldenrod; 
-	color: blue; 
+#wrapper {
+width: 900px;
+margin: 0 auto;
+text-align: center;
+background-color: #e0ebf5;	
+border: white 2px solid;
+}
 
 #google_calender_icon {
 display: none; /* hides content */
 border: black 2px solid;
 }
+
 
 #gmeet2 {
 display: none; /* hides content */
@@ -44,4 +39,8 @@ cursor: pointer;
 }
 
 
+a:hover {
+	font-size:200%;
+	background-color: goldenrod; 
+	color: blue; 
 }
