@@ -23,17 +23,24 @@ background-color: #e0ebf5;
 border: white 2px solid;
 }
 
+#google_meet_icon {
+display: show; /* hides content */
+border: black 2px solid;
+}
 
 #google_calender_icon {
 display: none; /* hides content */
 border: black 2px solid;
 }
 
+
 a:hover {
 	font-size:200%;
 	background-color: goldenrod; 
 	color: blue; 
 }
+
+
 
 .choices {
 cursor: pointer;
