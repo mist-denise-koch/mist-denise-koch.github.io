@@ -24,10 +24,10 @@
 		<h2 onclick="rightAnswer()" class="choices"> Convenience </h2>
 		<h2 onclick="wrongAnswer2()" class="choices"> Desktop Only <br><br></h2>
 
-	<div id="feedback"><br><br></div>
+	<div id="feedback"></div>
 	
 	<img id="gmeet2" src="img/gmeet2.jpeg" alt=""/>
-		<br><br><br><br> 
+		<br><br> 
 </div>
 	<script>
       function rightAnswer(){
@@ -35,14 +35,15 @@
          $("#gmeet2").show();
       }
 		
-		function wrongAnswer1(){
+	 function wrongAnswer1(){
       $("#feedback").html("<h2 style='color:red'> Google Meet and Zoom are seperate tools. </h2>");
       $("#gmeet2").hide();
-   }
-   function wrongAnswer2(){
+     }
+    
+	 function wrongAnswer2(){
       $("#feedback").html("<h2 style='color:red'> Google Meet can be used on all devices. </h2>");
       $("#gmeet2").hide();/* Image src https://chromeunboxed.com/google-meet-effects-panel */
-   }
+     }
 
    </script>
 
