@@ -24,7 +24,7 @@ border: white 2px solid;
 }
 
 #google_meet_icon {
-display: show; /* hides content */
+display: hide; /* hides content */
 border: black 2px solid;
 }
 
