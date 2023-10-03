@@ -31,12 +31,12 @@ a:hover {
 }
 
 #google_calender_icon {
-display: show; /* hides content */
+display: hide; /* hides content */
 border: black 2px solid;
 }
 
 #google_meet_icon {
-display: hide; /* hides content */
+display: none; /* hides content */
 border: black 2px solid;
 }
 
