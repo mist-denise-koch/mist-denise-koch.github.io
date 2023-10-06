@@ -47,4 +47,11 @@ a:hover {
 	color: blue; 
 	align-content: center;
 	
+
 }
+
+#wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
