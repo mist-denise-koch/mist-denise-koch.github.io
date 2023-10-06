@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>question1.html</title>
+	<link href="css/koala.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<link href="css/final.css" rel="stylesheet" type="text/css">
+	<link href="index.finalhome.html" rel= "Home">
+    <link href="indexpage2.html" rel= "Calender">
+    <link href="indexpage3.html" rel= "Meet">
+	<link href="indexpage4.html" rel= "Spaces">
+	<link href="indexpage5.html" rel= "eTools">
+	<link href="indexpage5.1.html" rel= "Connect">
+</head>
+<br><br><br><br>
+<body id="body">
+	<br><br><br>
+	<div id="wrapper"><br><br><br>
+	<a href="index.finalhome.html">Home</a>
+  	<a href="indexpage2.html">Calender</a>
+	<a href="indexpage3.html">Meet</a>
+	<a href="indexpage4.html">Spaces</a>
+ 		<br><br><br>
+		<h1>Collaboration e-Tools</h1>
+		<br><br><br>
+		<div id="menu"><center>
+			
+			<a href="indexpage5.html"> eTools </a>
+			<a href="indexpage5.1.html"> Connect </a>	
+		</div></center>
+ 		<br><br>
+		
+		<h3 id="hint" >Google Calender has excellent eTool collaborative features. Hover over the image to see another eTool option! </h3>
+ 
+		<img onmouseenter="showAnswer()" 
+			 id="google_calender_icon"
+			 src="img/gcalendaricon.png" 
+		 />
+		
+		<img onmouseleave="hideAnswer()"  
+			id="google_meet_icon"
+			 src="img/gmeeticon.jpeg"  
+		/>
+		
+     	<br><br>
+		<div id="answer"></div>  <!-- This is a placeholder to display the answer-->
+ 		<br><br><br><br>
+	</div> <!-- closing  “wrapper” -->
+<br><br><br><br><br><br>
+	<script>
+	
+		function hideAnswer() {
+	   	$("#google_calender_icon").show();
+		$("#google_meet_icon").hide();
+		$("#answer").html("");  
+		}
+	
+		function showAnswer() {
+		$("#google_meet_icon").show();
+	    $("#google_calender_icon").hide();
+	    $("#answer").html("<h2>Google Meet for eCollaboration!</h2>");
+		}
+	
+	</script>
+
+</body>
+</html>

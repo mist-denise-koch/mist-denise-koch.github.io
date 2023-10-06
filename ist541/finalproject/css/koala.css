@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#body {
+	background-color: #e0ebf5;
+}
+
+a {
+	padding: 15px;
+	margin: 3px;
+	font-size: 125%;
+	background-color: #e0ebf5; 
+	color: goldenrod; 
+	border-radius: 10px;
+	box-shadow: 0 3px 8px 0 rgb(103, 147, 224), 0 8px 20px 0 rgb(103, 147, 224);
+}
+
+#wrapper {
+width: 900px;
+margin: 0 auto;
+text-align: center;
+background-color: #e0ebf5;	
+border: white 3px solid;
+}
+
+
+a:hover {
+	font-size:200%;
+	background-color: goldenrod; 
+	color: blue; 
+}
+
+#google_calender_icon {
+display: hide; /* hides content */
+border: black 2px solid;
+}
+
+#google_meet_icon {
+display: none; /* hides content */
+border: black 2px solid;
+}
+
+
+.choices {
+cursor: pointer;
+}
+
+#gmeet2 {
+display: none; /* hides content */
+border: black 2px solid;
+}
+
+
+
+
+

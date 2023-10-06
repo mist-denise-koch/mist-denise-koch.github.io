@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>question2.html</title>
+<link href="css/koala.css" rel="stylesheet" type="text/css">
+<link href="css/final.css" rel="stylesheet" type="text/css">
+<link href="index.finalhome.html" rel= "Home">
+    <link href="indexpage2.html" rel= "Calender">
+    <link href="indexpage3.html" rel= "Meet">
+	<link href="indexpage4.html" rel= "Spaces">
+<link href="indexpage5.html" rel= "eTools">
+<link href="indexpage5.1.html" rel= "Connect">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body id="body">
+	<br><br><br><br>
+	 <div id="wrapper"><br><br><br>
+		<h1>Collaboration e-Tools</h1>
+		 <br>
+		 <div id="menu"><center>
+				<a href="indexpage5.html"> eTools </a>
+				<a href="indexpage5.1.html"> Connect </a>	
+			</div></center>
+		 <br>
+		<h2>Select which feature of Google Meet would be most helpful to teams?</h2>
+
+		<h2 onclick="wrongAnswer1()" class="choices"> Zoom Friendly </h2>
+		<h2 onclick="wrongAnswer2()" class="choices"> No iphones </h2>
+		<h2 onclick="rightAnswer()" class="choices"> Convenience </h2>
+		<h2 onclick="wrongAnswer2()" class="choices"> Desktop Only <br><br></h2>
+
+	<div id="feedback"></div>
+	
+	<img id="gmeet2" src="img/gmeet2.jpeg" alt=""/>
+		<br><br> 
+</div>
+	<script>
+      function rightAnswer(){
+         $("#feedback").html("<h2 style='color:green'> Correct! Google Meet can be instantly accessed from any device and give you direct access to your shared documents at the same time.</h2><br><br><br>");
+         $("#gmeet2").show();
+      }
+		
+	 function wrongAnswer1(){
+      $("#feedback").html("<h2 style='color:red'> Google Meet and Zoom are seperate tools. </h2>");
+      $("#gmeet2").hide();
+     }
+    
+	 function wrongAnswer2(){
+      $("#feedback").html("<h2 style='color:red'> Google Meet can be used on all devices. </h2>");
+      $("#gmeet2").hide();/* Image src https://chromeunboxed.com/google-meet-effects-panel */
+     }
+
+   </script>
+<br><br><br><br>
+</body>
+</html>
