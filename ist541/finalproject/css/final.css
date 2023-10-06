@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	background-image: url("../img/kaleidescope.jpeg");
+}
+
+body {
+	 
+	background-color: #e0ebf5;  
+	border: goldenrod 3px solid;
+	align-content: center;
+	border-radius: 20px;
+	
+}
+
+	
+h1{
+	background-color: #e0ebf5;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+div{
+	background-color: #e0ebf5; 
+	font-family: 'Open Sans', sans-serif;
+	text-align: left
+	
+}
+
+a {
+	padding: 15px;
+	margin: 3px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 125%;
+	background-color:  white; 
+	color:  goldenrod; 
+	border-radius: 5px;
+	box-shadow: 0 3px 8px 0 rgb(103, 147, 224), 0 8px 20px 0 rgb(103, 147, 224);
+	align-content: center;
+	
+}
+
+a:hover {
+	font-family: 'Open Sans', sans-serif;
+	font-size:200%;
+	background-color: goldenrod; 
+	color: blue; 
+	align-content: center;
+	
+}
