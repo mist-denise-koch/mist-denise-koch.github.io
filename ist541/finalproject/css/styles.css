@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-image: url("../img/kaleidescope.jpeg"); 
+	/* background image https://videohive.net/item/low-poly-colorful-background/19727365*/
+	color: #444;          /* text color for the entire document */
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	padding: 15px;
+	margin: 3px;
+	font-size: 125%;
+	background-color: white; 
+	color: goldenrod; 
+	
+}
+
+a:hover {
+	font-size:200%;
+	background-color: goldenrod; 
+	color: blue; 
+	
+}
+
+#wrapper {
+	width:1300px;
+	height:800px;
+	margin:0 auto;         /* centers wrapper */
+ 	text-align:center;
+	background-color: rgba(#e0ebf5, #e0ebf5, #e0ebf5, 1.0);  /* creates white background with 100% opacity */
+	border-radius: 20px;
+}
+
+table {
+	margin:0 auto;  /* centers table*/
+}
+
+
+td {
+	background-color: white;  /* sets background color for table cells*/
+}
+
+h1, h2 { 
+	text-align:center;     /* centers h1 and h2 content */
+}
+
+audio { 
+	width:200px;   /* sets the width of the audio controls */
+}
