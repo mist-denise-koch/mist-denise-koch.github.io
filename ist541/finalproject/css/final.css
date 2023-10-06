@@ -50,5 +50,6 @@ a:hover {
 #wrapper {
 	width: 80%;
 	margin: 0 auto;
+	border: white 3px solid;
 }
 
