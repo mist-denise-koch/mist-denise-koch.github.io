@@ -24,7 +24,7 @@ a:hover {
 }
 
 #wrapper {
-	width:900px;
+	width:1000px;
 	margin:0 auto;         /* centers wrapper */
  	text-align:center;
 	background-color: rgba(255, 255, 255, 0.8);  /* creates white background with 80% opacity */

@@ -1,0 +1,249 @@
+{
+  "title" : "",
+  "description" : "",
+  "author" : "",
+  "targetLoudness" : -18.0,
+  "shouldApplyLoudnessNormalization" : true,
+  "videoFormatFrameRate" : 30,
+  "audioFormatSampleRate" : 44100,
+  "allowSubFrameEditing" : false,
+  "width" : 323.0,
+  "height" : 182.0,
+  "version" : "6.0",
+  "editRate" : 705600000,
+  "authoringClientName" :  {
+    "name" : "Camtasia",
+    "platform" : "Mac",
+    "version" : "2022.6.8"
+  },
+  "sourceBin" : [
+    {
+      "id" : 1,
+      "src" : "./media/1695433157.156924/Gchat gif.gif",
+      "rect" : [0, 0, 0, 0],
+      "lastMod" : "20230922T203449",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 222],
+          "type" : 0,
+          "editRate" : 30,
+          "trackRect" : [0, 0, 323, 182],
+          "sampleRate" : 0,
+          "bitDepth" : 0,
+          "numChannels" : 0,
+          "integratedLUFS" : 100.0,
+          "peakLevel" : -1.0,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20230922T203750.104076"
+      }
+    },
+    {
+      "id" : 2,
+      "src" : "./media/1695433157.157679/gchatgifaudio.m4a",
+      "rect" : [0, 0, 0, 0],
+      "lastMod" : "20230923T012444",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 349520],
+          "type" : 2,
+          "editRate" : 48000,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 48000,
+          "bitDepth" : 0,
+          "numChannels" : 1,
+          "integratedLUFS" : 103.0,
+          "peakLevel" : -1.0,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20230923T013755.879271"
+      }
+    }
+  ],
+  "timeline" : {
+    "id" : 3,
+    "sceneTrack" : {
+      "scenes" : [
+        {
+          "csml" : {
+            "tracks" : [
+              {
+                "trackIndex" : 0,
+                "medias" : [
+                ]
+              },
+              {
+                "trackIndex" : 1,
+                "medias" : [
+                  {
+                    "id" : 4,
+                    "_type" : "VMFile",
+                    "src" : 1,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Gchat gif"
+                    },
+                    "parameters" : {
+                      "translation0" : 11.1779492835859,
+                      "translation1" : -15.4575350618241,
+                      "scale0" : 1.0692133082575,
+                      "scale1" : 1.0692133082575,
+                      "scale2" : 1.0,
+                      "sourceCrop0" : 0.0,
+                      "sourceCrop1" : 0.0,
+                      "sourceCrop2" : 0.0,
+                      "sourceCrop3" : 0.0,
+                      "geometryCrop0" : 0.0,
+                      "geometryCrop1" : 0.0,
+                      "geometryCrop2" : 0.0,
+                      "geometryCrop3" : 0.0
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 0,
+                    "duration" : 5221440000,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 5221440000,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "default-anchor0" : 0.0,
+                      "default-anchor1" : 0.0,
+                      "default-anchor2" : 0.0,
+                      "default-height" : 182.0,
+                      "default-rotation0" : 0.0,
+                      "default-rotation1" : 0.0,
+                      "default-rotation2" : 0.0,
+                      "default-scale" : "1",
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-scale2" : 1.0,
+                      "default-shear0" : 0.0,
+                      "default-shear1" : 0.0,
+                      "default-shear2" : 0.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0,
+                      "default-translation2" : 0.0,
+                      "default-width" : 323.0,
+                      "effectApplied" : "none",
+                      "lockAspectRatio" : true
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 2,
+                "medias" : [
+                  {
+                    "id" : 5,
+                    "_type" : "AMFile",
+                    "src" : 2,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "gchatgifaudio",
+                      "gain" : 1.0,
+                      "mixToMono" : false,
+                      "loudnessNormalization" : true,
+                      "sourceFileOffset" : 0
+                    },
+                      "channelNumber" : "0",
+                    "effects" : [
+
+                    ],
+                    "start" : 0,
+                    "duration" : 5127360000,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 5127360000,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "audiateAttribute" : false,
+                      "clipSpeedAttribute" : false,
+                      "effectApplied" : "none"
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              }            ]
+          }
+        }
+      ]
+    },
+    "trackAttributes" : [
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "matte" : 0,
+        "solo" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "trackHeight" : "54"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "matte" : 0,
+        "solo" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "trackHeight" : "54"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "matte" : 0,
+        "solo" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "trackHeight" : "54"
+        }
+      }
+    ],
+    "captionAttributes" : {
+      "enabled" : true,
+      "fontName" : "Arial",
+      "fontSize" : 32,
+      "backgroundColor" : [ 0, 0, 0, 204],
+      "foregroundColor" : [ 255, 255, 255, 255],
+      "lang" : "en",
+      "alignment" : 0,
+      "defaultFontSize" : true,
+      "opacity" : 0.5,
+      "backgroundEnabled" : true,
+      "backgroundOnlyAroundText" : true
+    },
+    "gain" : 1.0,
+    "legacyAttenuateAudioMix" : false,
+    "backgroundColor" : [ 0, 0, 0, 255]
+  },
+  "metadata" : {
+    "ProjectThumbnail" : "iVBORw0KGgoAAAANSUhEUgAAAn4AAAFnCAYAAAA44USuAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAACfqADAAQAAAABAAABZwAAAACD7lqTAAASdElEQVR4Ae3WsRHAMAwDMcX775yk8BR6+M4DEGLBZ2be/3sECBAgQIAAAQLLBc7yfOIRIECAAAECBAhcAcNPFQgQIECAAAECEQHDL3JoMQkQIECAAAEChp8OECBAgAABAgQiAoZf5NBiEiBAgAABAgQMPx0gQIAAAQIECEQEDL/IocUkQIAAAQIECBh+OkCAAAECBAgQiAgYfpFDi0mAAAECBAgQMPx0gAABAgQIECAQETD8IocWkwABAgQIECBg+OkAAQIECBAgQCAiYPhFDi0mAQIECBAgQMDw0wECBAgQIECAQETA8IscWkwCBAgQIECAgOGnAwQIECBAgACBiIDhFzm0mAQIECBAgAABw08HCBAgQIAAAQIRAcMvcmgxCRAgQIAAAQKGnw4QIECAAAECBCIChl/k0GISIECAAAECBAw/HSBAgAABAgQIRAQMv8ihxSRAgAABAgQIGH46QIAAAQIECBCICBh+kUOLSYAAAQIECBAw/HSAAAECBAgQIBARMPwihxaTAAECBAgQIGD46QABAgQIECBAICJg+EUOLSYBAgQIECBAwPDTAQIECBAgQIBARMDwixxaTAIECBAgQICA4acDBAgQIECAAIGIgOEXObSYBAgQIECAAAHDTwcIECBAgAABAhEBwy9yaDEJECBAgAABAoafDhAgQIAAAQIEIgKGX+TQYhIgQIAAAQIEDD8dIECAAAECBAhEBAy/yKHFJECAAAECBAgYfjpAgAABAgQIEIgIGH6RQ4tJgAABAgQIEDD8dIAAAQIECBAgEBEw/CKHFpMAAQIECBAgYPjpAAECBAgQIEAgImD4RQ4tJgECBAgQIEDA8NMBAgQIECBAgEBEwPCLHFpMAgQIECBAgIDhpwMECBAgQIAAgYiA4Rc5tJgECBAgQIAAAcNPBwgQIECAAAECEQHDL3JoMQkQIECAAAEChp8OECBAgAABAgQiAoZf5NBiEiBAgAABAgQMPx0gQIAAAQIECEQEDL/IocUkQIAAAQIECBh+OkCAAAECBAgQiAgYfpFDi0mAAAECBAgQMPx0gAABAgQIECAQETD8IocWkwABAgQIECBg+OkAAQIECBAgQCAiYPhFDi0mAQIECBAgQMDw0wECBAgQIECAQETA8IscWkwCBAgQIECAgOGnAwQIECBAgACBiIDhFzm0mAQIECBAgAABw08HCBAgQIAAAQIRAcMvcmgxCRAgQIAAAQKGnw4QIECAAAECBCIChl/k0GISIECAAAECBAw/HSBAgAABAgQIRAQMv8ihxSRAgAABAgQIGH46QIAAAQIECBCICBh+kUOLSYAAAQIECBAw/HSAAAECBAgQIBARMPwihxaTAAECBAgQIGD46QABAgQIECBAICJg+EUOLSYBAgQIECBAwPDTAQIECBAgQIBARMDwixxaTAIECBAgQICA4acDBAgQIECAAIGIgOEXObSYBAgQIECAAAHDTwcIECBAgAABAhEBwy9yaDEJECBAgAABAoafDhAgQIAAAQIEIgKGX+TQYhIgQIAAAQIEDD8dIECAAAECBAhEBAy/yKHFJECAAAECBAgYfjpAgAABAgQIEIgIGH6RQ4tJgAABAgQIEDD8dIAAAQIECBAgEBEw/CKHFpMAAQIECBAgYPjpAAECBAgQIEAgImD4RQ4tJgECBAgQIEDA8NMBAgQIECBAgEBEwPCLHFpMAgQIECBAgIDhpwMECBAgQIAAgYiA4Rc5tJgECBAgQIAAAcNPBwgQIECAAAECEQHDL3JoMQkQIECAAAEChp8OECBAgAABAgQiAoZf5NBiEiBAgAABAgQMPx0gQIAAAQIECEQEDL/IocUkQIAAAQIECBh+OkCAAAECBAgQiAgYfpFDi0mAAAECBAgQMPx0gAABAgQIECAQETD8IocWkwABAgQIECBg+OkAAQIECBAgQCAiYPhFDi0mAQIECBAgQMDw0wECBAgQIECAQETA8IscWkwCBAgQIECAgOGnAwQIECBAgACBiIDhFzm0mAQIECBAgAABw08HCBAgQIAAAQIRAcMvcmgxCRAgQIAAAQKGnw4QIECAAAECBCIChl/k0GISIECAAAECBAw/HSBAgAABAgQIRAQMv8ihxSRAgAABAgQIGH46QIAAAQIECBCICBh+kUOLSYAAAQIECBAw/HSAAAECBAgQIBARMPwihxaTAAECBAgQIGD46QABAgQIECBAICJg+EUOLSYBAgQIECBAwPDTAQIECBAgQIBARMDwixxaTAIECBAgQICA4acDBAgQIECAAIGIgOEXObSYBAgQIECAAAHDTwcIECBAgAABAhEBwy9yaDEJECBAgAABAoafDhAgQIAAAQIEIgKGX+TQYhIgQIAAAQIEDD8dIECAAAECBAhEBAy/yKHFJECAAAECBAgYfjpAgAABAgQIEIgIGH6RQ4tJgAABAgQIEDD8dIAAAQIECBAgEBEw/CKHFpMAAQIECBAgYPjpAAECBAgQIEAgImD4RQ4tJgECBAgQIEDA8NMBAgQIECBAgEBEwPCLHFpMAgQIECBAgIDhpwMECBAgQIAAgYiA4Rc5tJgECBAgQIAAAcNPBwgQIECAAAECEQHDL3JoMQkQIECAAAEChp8OECBAgAABAgQiAoZf5NBiEiBAgAABAgQMPx0gQIAAAQIECEQEDL/IocUkQIAAAQIECBh+OkCAAAECBAgQiAgYfpFDi0mAAAECBAgQMPx0gAABAgQIECAQETD8IocWkwABAgQIECBg+OkAAQIECBAgQCAiYPhFDi0mAQIECBAgQMDw0wECBAgQIECAQETA8IscWkwCBAgQIECAgOGnAwQIECBAgACBiIDhFzm0mAQIECBAgAABw08HCBAgQIAAAQIRAcMvcmgxCRAgQIAAAQKGnw4QIECAAAECBCIChl/k0GISIECAAAECBAw/HSBAgAABAgQIRAQMv8ihxSRAgAABAgQIGH46QIAAAQIECBCICBh+kUOLSYAAAQIECBAw/HSAAAECBAgQIBARMPwihxaTAAECBAgQIGD46QABAgQIECBAICJg+EUOLSYBAgQIECBAwPDTAQIECBAgQIBARMDwixxaTAIECBAgQICA4acDBAgQIECAAIGIgOEXObSYBAgQIECAAAHDTwcIECBAgAABAhEBwy9yaDEJECBAgAABAoafDhAgQIAAAQIEIgKGX+TQYhIgQIAAAQIEDD8dIECAAAECBAhEBAy/yKHFJECAAAECBAgYfjpAgAABAgQIEIgIGH6RQ4tJgAABAgQIEDD8dIAAAQIECBAgEBEw/CKHFpMAAQIECBAgYPjpAAECBAgQIEAgImD4RQ4tJgECBAgQIEDA8NMBAgQIECBAgEBEwPCLHFpMAgQIECBAgIDhpwMECBAgQIAAgYiA4Rc5tJgECBAgQIAAAcNPBwgQIECAAAECEQHDL3JoMQkQIECAAAEChp8OECBAgAABAgQiAoZf5NBiEiBAgAABAgQMPx0gQIAAAQIECEQEDL/IocUkQIAAAQIECBh+OkCAAAECBAgQiAgYfpFDi0mAAAECBAgQMPx0gAABAgQIECAQETD8IocWkwABAgQIECBg+OkAAQIECBAgQCAiYPhFDi0mAQIECBAgQMDw0wECBAgQIECAQETA8IscWkwCBAgQIECAgOGnAwQIECBAgACBiIDhFzm0mAQIECBAgAABw08HCBAgQIAAAQIRAcMvcmgxCRAgQIAAAQKGnw4QIECAAAECBCIChl/k0GISIECAAAECBAw/HSBAgAABAgQIRAQMv8ihxSRAgAABAgQIGH46QIAAAQIECBCICBh+kUOLSYAAAQIECBAw/HSAAAECBAgQIBARMPwihxaTAAECBAgQIGD46QABAgQIECBAICJg+EUOLSYBAgQIECBAwPDTAQIECBAgQIBARMDwixxaTAIECBAgQICA4acDBAgQIECAAIGIgOEXObSYBAgQIECAAAHDTwcIECBAgAABAhEBwy9yaDEJECBAgAABAoafDhAgQIAAAQIEIgKGX+TQYhIgQIAAAQIEDD8dIECAAAECBAhEBAy/yKHFJECAAAECBAgYfjpAgAABAgQIEIgIGH6RQ4tJgAABAgQIEDD8dIAAAQIECBAgEBEw/CKHFpMAAQIECBAgYPjpAAECBAgQIEAgImD4RQ4tJgECBAgQIEDA8NMBAgQIECBAgEBEwPCLHFpMAgQIECBAgIDhpwMECBAgQIAAgYiA4Rc5tJgECBAgQIAAAcNPBwgQIECAAAECEQHDL3JoMQkQIECAAAEChp8OECBAgAABAgQiAoZf5NBiEiBAgAABAgQMPx0gQIAAAQIECEQEDL/IocUkQIAAAQIECBh+OkCAAAECBAgQiAgYfpFDi0mAAAECBAgQMPx0gAABAgQIECAQETD8IocWkwABAgQIECBg+OkAAQIECBAgQCAiYPhFDi0mAQIECBAgQMDw0wECBAgQIECAQETA8IscWkwCBAgQIECAgOGnAwQIECBAgACBiIDhFzm0mAQIECBAgAABw08HCBAgQIAAAQIRAcMvcmgxCRAgQIAAAQKGnw4QIECAAAECBCIChl/k0GISIECAAAECBAw/HSBAgAABAgQIRAQMv8ihxSRAgAABAgQIGH46QIAAAQIECBCICBh+kUOLSYAAAQIECBAw/HSAAAECBAgQIBARMPwihxaTAAECBAgQIGD46QABAgQIECBAICJg+EUOLSYBAgQIECBAwPDTAQIECBAgQIBARMDwixxaTAIECBAgQICA4acDBAgQIECAAIGIgOEXObSYBAgQIECAAAHDTwcIECBAgAABAhEBwy9yaDEJECBAgAABAoafDhAgQIAAAQIEIgKGX+TQYhIgQIAAAQIEDD8dIECAAAECBAhEBAy/yKHFJECAAAECBAgYfjpAgAABAgQIEIgIGH6RQ4tJgAABAgQIEDD8dIAAAQIECBAgEBEw/CKHFpMAAQIECBAgYPjpAAECBAgQIEAgImD4RQ4tJgECBAgQIEDA8NMBAgQIECBAgEBEwPCLHFpMAgQIECBAgIDhpwMECBAgQIAAgYiA4Rc5tJgECBAgQIAAAcNPBwgQIECAAAECEQHDL3JoMQkQIECAAAEChp8OECBAgAABAgQiAoZf5NBiEiBAgAABAgQMPx0gQIAAAQIECEQEDL/IocUkQIAAAQIECBh+OkCAAAECBAgQiAgYfpFDi0mAAAECBAgQMPx0gAABAgQIECAQETD8IocWkwABAgQIECBg+OkAAQIECBAgQCAiYPhFDi0mAQIECBAgQMDw0wECBAgQIECAQETA8IscWkwCBAgQIECAgOGnAwQIECBAgACBiIDhFzm0mAQIECBAgAABw08HCBAgQIAAAQIRAcMvcmgxCRAgQIAAAQKGnw4QIECAAAECBCIChl/k0GISIECAAAECBAw/HSBAgAABAgQIRAQMv8ihxSRAgAABAgQIGH46QIAAAQIECBCICBh+kUOLSYAAAQIECBAw/HSAAAECBAgQIBARMPwihxaTAAECBAgQIGD46QABAgQIECBAICJg+EUOLSYBAgQIECBAwPDTAQIECBAgQIBARMDwixxaTAIECBAgQICA4acDBAgQIECAAIGIgOEXObSYBAgQIECAAAHDTwcIECBAgAABAhEBwy9yaDEJECBAgAABAoafDhAgQIAAAQIEIgKGX+TQYhIgQIAAAQIEDD8dIECAAAECBAhEBAy/yKHFJECAAAECBAgYfjpAgAABAgQIEIgIGH6RQ4tJgAABAgQIEDD8dIAAAQIECBAgEBEw/CKHFpMAAQIECBAgYPjpAAECBAgQIEAgImD4RQ4tJgECBAgQIEDA8NMBAgQIECBAgEBEwPCLHFpMAgQIECBAgIDhpwMECBAgQIAAgYiA4Rc5tJgECBAgQIAAAcNPBwgQIECAAAECEQHDL3JoMQkQIECAAAEChp8OECBAgAABAgQiAoZf5NBiEiBAgAABAgQMPx0gQIAAAQIECEQEDL/IocUkQIAAAQIECBh+OkCAAAECBAgQiAgYfpFDi0mAAAECBAgQMPx0gAABAgQIECAQETD8IocWkwABAgQIECBg+OkAAQIECBAgQCAiYPhFDi0mAQIECBAgQMDw0wECBAgQIECAQETA8IscWkwCBAgQIECAgOGnAwQIECBAgACBiIDhFzm0mAQIECBAgAABw08HCBAgQIAAAQIRAcMvcmgxCRAgQIAAAQKGnw4QIECAAAECBCIChl/k0GISIECAAAECBAw/HSBAgAABAgQIRAQ+yPMDzdQUdfYAAAAASUVORK5CYII=",
+    "RulerGuidesX" : [],
+    "RulerGuidesY" : [],
+    "RulerShowing" : false,
+    "activeThemeId" : "e59eeb42-ccf0-4a36-bdf9-e630fdab686d",
+    "audiateSessionId" : "",
+    "firstMedia" : true,
+    "hasNotifiedAboutHFRMedia" : false,
+    "projectDuration" : "00:07"
+  }
+}
