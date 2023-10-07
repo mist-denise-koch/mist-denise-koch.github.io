@@ -25,6 +25,7 @@ div{
 	background-color: #e0ebf5; 
 	font-family: 'Open Sans', sans-serif;
 	text-align: left	
+	
 }
 
 a {
@@ -32,7 +33,7 @@ a {
 	margin: 3px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 125%;
-	background-color:  white; 
+	background-color: white; 
 	color:  goldenrod; 
 	border-radius: 5px;
 	box-shadow: 0 3px 8px 0 rgb(103, 147, 224), 0 8px 20px 0 rgb(103, 147, 224);
@@ -48,8 +49,8 @@ a:hover {
 }
 
 #wrapper {
-	width: 80%;
-	margin: 0 auto;
+	width: 95%;
+	margin: auto;
 	border: white 3px solid;
 }
 
