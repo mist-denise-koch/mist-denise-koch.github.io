@@ -17,7 +17,6 @@ h1, h2 {
 #wrapper {
 	width: 96%;
 	margin: 0 auto;    /* centers wrapper */
-
 }
 
 /* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
@@ -33,6 +32,7 @@ h1, h2 {
  }
 
 .stepContent{ 
+	font-size: 90%;
 	background-color: white;
 	padding:7px;
 	display: flex;
@@ -62,7 +62,7 @@ h1, h2 {
 }
 
 .stepImage img {
-    width:80%;
+    width:60%;
     height:auto;
 }
 
