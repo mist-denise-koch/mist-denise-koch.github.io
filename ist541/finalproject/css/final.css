@@ -52,3 +52,7 @@ a:hover {
 	border: white 3px solid;
 }
 
+#content {
+	width: 75%;
+	margin: auto;
+}
