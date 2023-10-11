@@ -15,7 +15,7 @@ h1, h2 {
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
 #wrapper {
-	width: 95%;
+	width: 96%;
 	margin: 0 auto;    /* centers wrapper */
 
 }
@@ -27,11 +27,9 @@ h1, h2 {
 	background-color:#f7b757a1;
 	font-weight: bold;
 	font-size: 150%;
-	border-top-left-radius: 20px;
-	border-top-right-radius: 20px;
-
-box-shadow: 0 4px 8px 0 rgb(103, 147, 224), 0 6px 20px 0 rgb(103, 147, 224);
-
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgb(103, 147, 224), 0 6px 20px 0 rgb(103, 147, 224);
  }
 
 .stepContent{ 
@@ -40,12 +38,9 @@ box-shadow: 0 4px 8px 0 rgb(103, 147, 224), 0 6px 20px 0 rgb(103, 147, 224);
 	display: flex;
 	flex-wrap:wrap;
 	justify-content: center;
-	border-bottom-left-radius: 20px;
-	border-bottom-right-radius: 20px;
-
-box-shadow: 0 4px 8px 0 rgb(103, 147, 224), 0 6px 20px 0 rgb(103, 147, 224);
-
-
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgb(103, 147, 224), 0 6px 20px 0 rgb(103, 147, 224);
 }
 
 .stepDescription {
@@ -62,12 +57,12 @@ box-shadow: 0 4px 8px 0 rgb(103, 147, 224), 0 6px 20px 0 rgb(103, 147, 224);
 }
 
 .stepImage img { 
-	border-radius: 20px;
+	border-radius: 10px;
 	box-shadow: 0 4px 8px 0 rgb(103, 147, 224), 0 6px 20px 0 rgb(103, 147, 224);
 }
 
 .stepImage img {
-    width:90%;
+    width:80%;
     height:auto;
 }
 
