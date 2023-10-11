@@ -29,12 +29,10 @@ a:hover {
 
 #wrapper {
 	width:95%;
-	margin:0 auto;         /* centers wrapper */
+	margin:0px auto;         /* centers wrapper */
  	text-align:center;
 	background-color: rgba(#e0ebf5, #e0ebf5, #e0ebf5, 1.0);  /* creates white background with 100% opacity */
 	border-radius: 20px;
-
-	
 }
 
 table {

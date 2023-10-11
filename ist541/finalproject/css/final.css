@@ -6,7 +6,6 @@ html {
 }
 
 body {
-	 
 	background-color: #e0ebf5;  
 	border: goldenrod 3px solid;
 	align-content: center;
@@ -24,8 +23,7 @@ h1{
 div{
 	background-color: #e0ebf5; 
 	font-family: 'Open Sans', sans-serif;
-	text-align: left	
-	
+	text-align: left		
 }
 
 a {
