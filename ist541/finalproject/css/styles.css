@@ -1,9 +1,14 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body {
+html {
 	background-image: url("../img/kaleidescope.jpeg"); 
 	/* background image https://videohive.net/item/low-poly-colorful-background/19727365*/
+	
+}
+
+body {
+	background-color:#e0ebf5; 
 	color: #444;          /* text color for the entire document */
 	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
@@ -28,11 +33,11 @@ a:hover {
 }
 
 #wrapper {
-	width:95%;
+	width:85%;
 	margin:0px auto;         /* centers wrapper */
  	text-align:center;
 	background-color: rgba(#e0ebf5, #e0ebf5, #e0ebf5, 1.0);  /* creates white background with 100% opacity */
-	border-radius: 20px;
+	
 }
 
 table {
