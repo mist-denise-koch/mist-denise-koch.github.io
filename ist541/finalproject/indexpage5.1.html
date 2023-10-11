@@ -32,29 +32,29 @@
 	 <div id="wrapper"><br><br><br>
 		<h1>Collaboration e-Tools</h1>
 		 <br>
-		 <div id="menu"><center>
-				<a href="indexpage5.html"> eTools </a>
-				<a href="indexpage5.1.html"> Connect </a>	
-			</div></center>
+		 
+		 	<div id="menu">
+				<center>
+				<a href="indexpage5.html">eTools</a>
+				<a href="indexpage5.1.html">Connect</a>
+				</center>	
+		 	</div>
 		 <br>
 		 <center>
 		<h2>Select which feature of Google Meet would be most helpful to teams?</h2>
 
 		<h2 onclick="wrongAnswer1()" class="choices"> Zoom Friendly </h2>
 		<h2 onclick="wrongAnswer2()" class="choices"> No iphones </h2>
-		<h2 onclick="rightAnswer()" class="choices"> Convenience </h2>
+		<h2 onclick="rightAnswer()" class="choices"> Convenience</h2>
 		<h2 onclick="wrongAnswer2()" class="choices"> Desktop Only <br><br></h2>
 		</center>
-
 	<div id="feedback"></div>
-	
 	<img id="gmeet2" src="img/gmeet2.jpeg" alt=""/>
 		<br><br> 
 </div>
-	
 	<script>
       function rightAnswer(){
-         $("#feedback").html("<h2 style='color:green'><center> Correct! Google Meet can be instantly accessed from any device and give you direct access to your shared documents at the same time.</center></h2><br><br><br>");
+         $("#feedback").html("<h2 style='color:green'><center> Correct! Google Meet can be instantly accessed from any device and give you direct access to your shared documents at the same time.</center></h2>");
          $("#gmeet2").show();
       }
 		
