@@ -3,7 +3,7 @@
 
 body {
 	background-color: #e0ebf5;   /* background color */
-	color: #444;          /* text color for the entire page */
+	          /* text color for the entire page */
 	font-family: 'Open Sans', sans-serif;
 	border-radius: 20px;
 	box-shadow: 0 4px 8px 0 rgb(103, 147, 224), 0 6px 20px 0 rgb(103, 147, 224);
