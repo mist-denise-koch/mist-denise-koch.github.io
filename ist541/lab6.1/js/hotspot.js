@@ -20,3 +20,7 @@ $( function() {
 
    });
 }); //end main jQuery function
+
+$( function() {
+   $("map area").click( function(){
+        $('#myModal').modal("show");
