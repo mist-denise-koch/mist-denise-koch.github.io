@@ -12,7 +12,7 @@ $( function() {
 			}
 			if ($(this).attr("id") == "Meet") {
 				$("#feedback").css("color","green");
-			    $("#feedback").html("Yes, accessing Google Meet allows you to meet virtually in real time to collaborate!");
+			    $("#feedback").html("Yes, accessing Google Meet allows you to meet virtually in real time to collaborate");
 			}
 			if ($(this).attr("id") == "Drive") {
 				$("#feedback").css("color","red");
@@ -20,7 +20,7 @@ $( function() {
 			}
 			if ($(this).attr("id") == "SharedDocs") {
          		$("#feedback").css("color","red");
-         		$("#feedback").html("No,but this is a great place to collaborate on group documents!");
+         		$("#feedback").html("No,but this is a great place to collaborate on group documents");
       		}
 			
 		});
