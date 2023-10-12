@@ -3,19 +3,24 @@
 $( function() {
    $("icon area").click( function(){
 
-      if ($(this).attr("id") == "USA") {
+      if ($(this).attr("id") == "Gmail") {
          $("#feedback").css("color","red");
-         $("#feedback").html("No, USA is the third one");
+         $("#feedback").html("Although you can access Google Chat and Spaces, there is a faster way to meet in real time");
       }
 
-      if ($(this).attr("id") == "China") {
+      if ($(this).attr("id") == "Meet") {
          $("#feedback").css("color","green");
-         $("#feedback").html("Yes, China has the largest population: 1,343,239,923");
+         $("#feedback").html("Yes, accessing Google Meet allows you to meet virtually in real time to collaborate!");
       }
 
-      if ($(this).attr("id") == "India") {
+      if ($(this).attr("id") == "Drive") {
          $("#feedback").css("color","red");
-         $("#feedback").html("No,India is the second one");
+         $("#feedback").html("No,but this is a great place to schedule a virtual meeting!");
+      }
+	   
+	   if ($(this).attr("id") == "SharedDocs") {
+         $("#feedback").css("color","red");
+         $("#feedback").html("No,but this is a great place to schedule a virtual meeting!");
       }
 
    });
