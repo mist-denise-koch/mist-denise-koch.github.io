@@ -22,10 +22,15 @@ $( function() {
          $("#feedback").css("color","red");
          $("#feedback").html("No,but this is a great place to schedule a virtual meeting!");
       }
-
+	   		
    });
+	
+	$( function() {
+	$("map area").click( function(){
+    $('#myModal').modal("show");
+	
 }); //end main jQuery function
 
-$( function() {
-   $("map area").click( function(){
-        $('#myModal').modal("show");
+
+
+
