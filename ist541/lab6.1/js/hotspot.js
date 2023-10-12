@@ -2,7 +2,7 @@
 
 $( function() {
 
-	    $("map area").click( function(){
+	    $("image-map area").click( function(){
 			
 			$('#myModal').modal("show");
 
