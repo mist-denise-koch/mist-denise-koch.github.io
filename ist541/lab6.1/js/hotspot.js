@@ -18,10 +18,6 @@ $( function() {
 				$("#feedback").css("color","red");
 			    $("#feedback").html("No,but this is a great place to schedule a virtual meeting");
 			}
-			if ($(this).attr("id") == "SharedDocs") {
-         		$("#feedback").css("color","red");
-         		$("#feedback").html("No,but this is a great place to collaborate on group documents");
-      		}
 			
 		});
 	
