@@ -1,0 +1,57 @@
+{
+  "version": "3.79.30921.0",
+  "course_id": "5x44gvMAAAd",
+  "title": "Create a Google Space",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "Create a Space"
+    }
+  ],
+  "slides": [
+    {
+      "id": "64Qu873xbq0",
+      "title": "Google Spaces Cover",
+      "scene_index": "1.1"
+    },
+    {
+      "id": "5oxMApLsppF",
+      "title": "Select Spaces Icon",
+      "scene_index": "1.2"
+    },
+    {
+      "id": "66X2XPqCQy3",
+      "title": "Select New Space",
+      "scene_index": "1.3"
+    },
+    {
+      "id": "6CgJU1lD43e",
+      "title": "Select the Create a space label",
+      "scene_index": "1.4"
+    },
+    {
+      "id": "6NmrYZaXKTO",
+      "title": "Add Team Members to the New Space",
+      "scene_index": "1.5"
+    },
+    {
+      "id": "6gYnr65niy6",
+      "title": "Test Account",
+      "scene_index": "1.6"
+    },
+    {
+      "id": "6Ygp3B3pWTl",
+      "title": "Select Add",
+      "scene_index": "1.7"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 1310,
+    "height": 762
+  },
+  "stage": {
+    "width": 1050,
+    "height": 644
+  }
+}
